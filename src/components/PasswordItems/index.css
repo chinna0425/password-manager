@@ -1,0 +1,86 @@
+.bggreen {
+  background-color: green;
+}
+.bgblue {
+  background-color: blue;
+}
+.bgred {
+  background-color: red;
+}
+.bgskyblue {
+  background-color: slateblue;
+}
+.bglightgreen {
+  background-color: lightgreen;
+}
+.bgpink {
+  background-color: pink;
+}
+.listpara {
+  border-radius: 35px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  font-family: 'Roboto';
+  align-items: center;
+  font-size: 24px;
+  justify-content: center;
+  color: #f8fafc;
+  margin-right: 6px;
+}
+.listpara1 {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  line-height: 0.4;
+}
+.star1 {
+  height: 20px;
+  width: 100px;
+}
+.list-styleset {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #f8fafc;
+  padding: 10px;
+  padding-top: 5px;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  min-width: 230px;
+  margin: 5px;
+}
+.list-itemsalign {
+  display: flex;
+  align-items: center;
+  width: 205px;
+}
+.delete {
+  height: 30px;
+  width: 30px;
+}
+.deletebutton {
+  background-color: transparent;
+  border-width: 0px;
+}
+@media screen and (max-width: 576px) {
+  .list-styleset {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #f8fafc;
+    padding: 7px;
+    padding-top: 5px;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    min-width: 220px;
+    margin: 3px;
+  }
+  .list-itemsalign {
+    display: flex;
+    align-items: center;
+    width: 205px;
+  }
+}
